@@ -1,1 +1,3 @@
 # bookstore-api
+
+### Database schema

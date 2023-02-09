@@ -1,0 +1,28 @@
+{
+  "name": "bookstore-api",
+  "version": "1.0.0",
+  "description": "simple bookstore api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "type": "module"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheusmendescosta/bookstore-api.git"
+  },
+  "author": "Matheus Mendes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matheusmendescosta/bookstore-api/issues"
+  },
+  "homepage": "https://github.com/matheusmendescosta/bookstore-api#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.1.2",
+    "sequelize": "^6.28.0"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.0"
+  }
+}
