@@ -1,5 +1,14 @@
 # bookstore-api
 
 ### Database schema
-
-![alt text] (https://i.ibb.co/bNKM6HB/Captura-de-Tela-2023-02-09-a-s-13-41-50.png)
++------------+      +-----------------+      +----------------+
+|  Livros    |      |   Usuários      |      |  Empréstimo    |
++------------+      +-----------------+      +----------------+
+| ID         |------| ID              |------| ID             |
+| Título     |      | Nome            |      | ID do Livro   |
+| Autor      |      | Endereço       |      | ID do Usuário |
+| Editora    |      | Número de telefone  |    | Data do Empréstimo |
+| Ano de pub |      | Email           |      | Data prevista para devolução |
+| Núm. páginas|      | Data de inscrição  |      | Data da devolução |
+| Quant. disp|      |                 |      |                |
++------------+      +-----------------+      +----------------+
